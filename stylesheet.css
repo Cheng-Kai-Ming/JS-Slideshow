@@ -1,0 +1,87 @@
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  width: 900px;
+  height: 350px;
+}
+
+#list{
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  width: 900px;
+  height: 50px;
+  
+}
+
+#screen{
+  background-color: blueviolet;
+  width: 900px;
+  height: 300px;
+}
+
+.wolf{
+  background-color: darksalmon;
+  width: 20%;
+  height: 100%;
+  background: url("/pic/wolf.png") no-repeat;
+  display: inline-block;
+  transition: 1.5s;
+}
+
+.wolf:hover{
+  background: url("/pic/bwolf.png") no-repeat;
+}
+
+.rab{
+  background-color: darksalmon;
+  width: 20%;
+  height: 100%;
+  background: url("/pic/rab.png") no-repeat;
+  display: inline-block;
+  transition: 1.5s;
+}
+
+.rab:hover{
+  background: url("/pic/brab.png") no-repeat;
+}
+
+.ali{
+  background-color: darksalmon;
+  width: 20%;
+  height: 100%;
+  background: url("/pic/ali.png") no-repeat;
+  display: inline-block;
+  transition: 1.5s;
+}
+
+.ali:hover{
+  background: url("/pic/bali.png") no-repeat;
+}
+
+.tur{
+  background-color: darksalmon;
+  width: 20%;
+  height: 100%;
+  background: url("/pic/tur.png") no-repeat;
+  display: inline-block;
+  transition: 1.5s;
+}
+
+.tur:hover{
+  background: url("/pic/btur.png") no-repeat;
+}
+
+.pla{
+  background-color: darksalmon;
+  width: 20%;
+  height: 100%;
+  background: url("/pic/pla.png") no-repeat;
+  display: inline-block;
+  transition: 1.5s;
+}
+
+.pla:hover{
+  background: url("/pic/bpla.png") no-repeat;
+}
