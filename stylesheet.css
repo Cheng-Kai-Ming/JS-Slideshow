@@ -1,87 +1,46 @@
-#container{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: aquamarine;
-  width: 900px;
+.container {
+  position: relative;
   height: 350px;
+  width: 80%;
+  margin: 0 auto;
 }
 
-#list{
+.item_image{
+  width: 100%;
+  height: 100%;
+}
+
+.container_screen {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.items{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.item{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav{
   display: flex;
-  flex-direction: row;
-  background-color: blue;
-  width: 900px;
-  height: 50px;
-  
+  justify-content: center;
+  padding: 10px 0;
 }
 
-#screen{
-  background-color: blueviolet;
-  width: 900px;
-  height: 300px;
+button {
+  all: unset;
+  cursor: pointer;
 }
 
-.wolf{
-  background-color: darksalmon;
-  width: 20%;
-  height: 100%;
-  background: url("/pic/wolf.png") no-repeat;
-  display: inline-block;
-  transition: 1.5s;
-}
 
-.wolf:hover{
-  background: url("/pic/bwolf.png") no-repeat;
-}
-
-.rab{
-  background-color: darksalmon;
-  width: 20%;
-  height: 100%;
-  background: url("/pic/rab.png") no-repeat;
-  display: inline-block;
-  transition: 1.5s;
-}
-
-.rab:hover{
-  background: url("/pic/brab.png") no-repeat;
-}
-
-.ali{
-  background-color: darksalmon;
-  width: 20%;
-  height: 100%;
-  background: url("/pic/ali.png") no-repeat;
-  display: inline-block;
-  transition: 1.5s;
-}
-
-.ali:hover{
-  background: url("/pic/bali.png") no-repeat;
-}
-
-.tur{
-  background-color: darksalmon;
-  width: 20%;
-  height: 100%;
-  background: url("/pic/tur.png") no-repeat;
-  display: inline-block;
-  transition: 1.5s;
-}
-
-.tur:hover{
-  background: url("/pic/btur.png") no-repeat;
-}
-
-.pla{
-  background-color: darksalmon;
-  width: 20%;
-  height: 100%;
-  background: url("/pic/pla.png") no-repeat;
-  display: inline-block;
-  transition: 1.5s;
-}
-
-.pla:hover{
-  background: url("/pic/bpla.png") no-repeat;
-}
